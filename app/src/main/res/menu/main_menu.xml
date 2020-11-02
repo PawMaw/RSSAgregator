@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/lenta"
+        android:id="@+id/lenta_news"
+        android:icon="@drawable/lenta_logo"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:title="@string/medusa"
+        android:id="@+id/medusa_news"
+        android:icon="@drawable/medusa_logo"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:title="@string/tproger"
+        android:id="@+id/tproger_news"
+        android:icon="@drawable/tproger_logo"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

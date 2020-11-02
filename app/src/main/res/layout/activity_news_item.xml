@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    >
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#073642">
+        <TextView
+            android:text="@string/title"
+            android:id="@+id/newsTextTitle"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#32b3c0">
+        </TextView>
+        <TextView
+            android:text="@string/date"
+            android:id="@+id/newsPublicationDate"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#859900">
+        </TextView>
+        <TextView
+            android:text="@string/context"
+            android:id="@+id/newsTextContent"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2aa198">
+        </TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

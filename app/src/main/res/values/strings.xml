@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RSS</string>
+    <string name="tproger">Typical programmer</string>
+    <string name="medusa">Medusa</string>
+    <string name="lenta">Lenta.ru</string>
+    <string name="context">Context</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+</resources>
