@@ -1,8 +1,6 @@
 # RSSAgregator
 [![Build Status](https://travis-ci.com/PawMaw/RSSAgregator.svg?branch=master)](https://travis-ci.com/PawMaw/RSSAgregator.svg?branch=master)
 
-Павел Матвеев
-Задание по Java SE, вариант 1
 ### Описание
 
 Агрегатор новостей из RSS новостных лент.
